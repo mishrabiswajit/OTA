@@ -1,7 +1,0 @@
-===============
- 16-11-2021
-===============
-• Fixed screen flickering  
-• Fixed auto closing apps
-• Fixed Recent app force stop
-• Fixed other known bugs
