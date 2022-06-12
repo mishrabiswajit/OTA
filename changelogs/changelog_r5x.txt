@@ -1,38 +1,36 @@
 ===============
-09-02-2022
+12-06-2022
 ===============
+
 Source Changelog:
 
-- New features -
-
-• Added option to invert navbar layout
-• Added support for repainter integration service
-• Allow maintainers to configure audio panel location
-• Allow users to toggle haptic feedback on qs tiles
-• Allow users to toggle privacy indicator
-• Bring back icon shape customization
-• Introduced Adaptive Playback
-• Introduced Game Dashboard & QuickTap
-• Introduced hotspot setting to allow VPN upstreams
-• Introduced one shot auto brightness
-• Introduced pixel sounds & remove aosp sounds
-• Introduced statusbar brightness control
-• Make Quick Unlock compatible with long PIN/Password
-
-- Fixed issues -
-
-• Avoid spoofing props for gcam and mods
-• Fixed Kai icon pack overlay for carriers using 5 bars of signal
-• Fixed some layout for ambient music ticker
-• Fixed glitchy charging info on ambient display
-
-- Improvements -
-
-• Improved QS Dataswitch, Sound & Screenshot tiles
+• Add left padding for keyguard slices
+• Add more themed icons for both gapps/vanilla builds
+• Add more core Google apps to system app whitelist for applock
+• Do not hardcode system round corners with Icon Shape
+• Exempt TeleService, Bluetooth, Cneapp & ImsService from location indicators
+• Gmscompat upstream
+• Introduced color section from Pixel stock for vanilla build
+• Introduced hotspot client manager
+• Introduced icon pack for launcher3
+• Switch to los fork of chromium webview
+• Whitelist YouTube apps & recorder from PixelProp
+• Fixed an issue where floating rotation doesnt show if 2-button nav mode enabled
+• Fixed bluetooth percentage not showing on battery widget
+• Fixed emergency info crash on vanilla build
+• Fixed QS Panel glitch when changing dark/light mode from QS
+• Fixed some NPE
 
 Device Changelog:
 
-• Added support for quick tap
-• Moved volume panel to left side 
-• Better cpu scheduling 
-• Affine all dex threads to little CPUs to get maximum efficient output. 
+• Moved to unofficial build
+• Added OTA support
+• Fixed low mic sound during calls
+• Bring back Vulkan for UI rendering 
+• Migrate to Health 2.1 HAL 
+• Update to LA.UM.9.11.r1-05600-NICOBAR.QSSI12.0 
+• Switch to Thermal 2.0 mock HAL 
+• Import Custom thermal engine.conf and modified for various scenarios
+• Improve configuration for better stability & accuracy 
+• Updated Night Light min and max values as no-one uses over orange display
+• Any many many more changes which you will feel when you will use 
